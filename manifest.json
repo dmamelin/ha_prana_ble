@@ -1,0 +1,23 @@
+{
+  "domain": "prana_ble",
+  "name": "Prana BLE",
+  "bluetooth": [
+    {
+      "service_uuid": "000000ee-0000-1000-8000-00805f9b34fb"
+    }
+  ],
+  "codeowners": [
+    "@dmamelin"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth"
+  ],
+  "documentation": "https://github.com/dmamelin/ha_prana_ble",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "bleak-retry-connector==4.4.3"
+  ],
+  "version": "25.10.1"
+}

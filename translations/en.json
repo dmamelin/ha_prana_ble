@@ -1,0 +1,121 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This device is already configured."
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the device. Make sure it is powered on and near the Bluetooth adapter, then try again.",
+      "unknown": "Unexpected error. Please try again."
+    },
+    "step": {
+      "user": {
+        "title": "Add Prana Device",
+        "data": {
+          "mac": "Bluetooth MAC address",
+          "max_speed": "Maximum speed",
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Prana options",
+        "data": {
+          "max_speed": "Maximum speed",
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "fan": {
+      "fan": {
+        "name": "",
+        "state_attributes": {
+          "preset_mode": {
+            "name": "Preset Mode",
+            "state": {
+              "auto": "Auto",
+              "auto_plus": "Auto Plus",
+              "boost": "Boost",
+              "night": "Night"
+            }
+          }
+        }
+      },
+      "fan_in": {
+        "name": "In"
+      },
+      "fan_out": {
+        "name": "Out"
+      }
+    },
+    "number": {
+      "brightness": {
+        "name": "Brightness"
+      }
+    },
+    "select": {
+      "display": {
+        "name": "Display",
+        "state": {
+          "co2": "CO2",
+          "date": "Date",
+          "efficiency": "Efficiency",
+          "fan": "Fan",
+          "humidity": "Humidity",
+          "pressure": "Pressure",
+          "temp_in": "In Temperature",
+          "temp_out": "Out Temperature",
+          "time": "Time",
+          "tvoc": "TVOC"
+        }
+      }
+    },
+    "sensor": {
+      "co2": {
+        "name": "CO2"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
+      "pressure": {
+        "name": "Pressure"
+      },
+      "speed": {
+        "name": "Speed"
+      },
+      "speed_in": {
+        "name": "Speed In"
+      },
+      "speed_out": {
+        "name": "Speed Out"
+      },
+      "temp_in": {
+        "name": "In Temperature"
+      },
+      "temp_out": {
+        "name": "Out Temperature"
+      },
+      "temp_outside": {
+        "name": "Outdoor Temperature"
+      },
+      "tvoc": {
+        "name": "TVOC"
+      }
+    },
+    "switch": {
+      "flows_locked": {
+        "name": "Flows Locked"
+      },
+      "mini_heating": {
+        "name": "Mini Heating"
+      },
+      "winter_mode": {
+        "name": "Winter Mode"
+      }
+    }
+  }
+}
