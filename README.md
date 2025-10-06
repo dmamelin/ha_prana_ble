@@ -1,6 +1,6 @@
 # Prana BLE integration
 
-Control your Prana recuperator directly from Home Assistant over Bluetooth Low Energy. The integration keeps the unit in sync and exposes the main controls you need for daily use and automations.
+Control your Prana recuperator directly from Home Assistant over Bluetooth Low Energy. 
 
 ## What you get
 - Automatic discovery through Home Assistant Bluetooth or manual setup by MAC address
@@ -8,10 +8,10 @@ Control your Prana recuperator directly from Home Assistant over Bluetooth Low E
 - Air quality and comfort sensors: indoor/outdoor temperatures, humidity, pressure, CO₂, TVOC, and current speeds
 - Device options as entities: mini heating, winter mode, flow lock, display mode, and brightness
 
-## Install with HACS (custom repository)
-This integration is not listed in the default HACS catalog yet, so you need to
-add the GitHub repository manually before installing it.
+## Install with HACS
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dmamelin&repository=ha_prana_ble&category=Integration)
 
+**Or manually add the repository to HACS:**
 1. Open **HACS → ⋮ → Custom repositories** and enter
    `https://github.com/dmamelin/ha_prana_ble` with category `Integration`.
 2. After HACS refreshes, search for **Prana BLE**, install it, and restart
