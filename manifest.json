@@ -19,5 +19,6 @@
   "requirements": [
     "bleak-retry-connector==4.4.3"
   ],
-  "version": "25.10.1"
+  "version": "25.10.1",
+  "homeassistant": "2025.9.0"
 }
