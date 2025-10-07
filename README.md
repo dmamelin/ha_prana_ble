@@ -26,6 +26,13 @@ Download the source archive and copy the extracted files straight into your Home
 2. If no suggestion appears, choose **Add integration**, search for **Prana BLE**, and follow the manual flow. Enter the BLE MAC address only if Home Assistant did not prefill it—the integration trims the advertised name automatically.
 3. Set the maximum speed (default 5) and update interval (default 30 seconds). You can change these later from the integration options.
 
+## Supported devices
+The protocol is proprietary, and device compatibility is unknown.
+#### Tested on:
+- Prana 150, firmware 3.2.18, BLE name: PRNAQaq*, sensors: 3 temperatures, humidity, pressure, CO₂, TVOC
+- Prana 150, firmware 3.2.18, BLE name: PRNBYav*, sensors: 3 temperatures, humidity, pressure, CO₂, TVOC
+
+
 ## Troubleshooting
 - Ensure the Home Assistant host (or Bluetooth proxy) can maintain a stable BLE connection and that no other app is paired with the recuperator.
 - For detailed logging add:
