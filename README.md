@@ -1,4 +1,4 @@
-# Prana BLE integration
+# Home Assistant Prana integration
 
 Control your Prana recuperator directly from Home Assistant over Bluetooth Low Energy. 
 
