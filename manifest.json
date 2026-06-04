@@ -16,9 +16,6 @@
   "documentation": "https://github.com/dmamelin/ha_prana_ble",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "requirements": [
-    "bleak-retry-connector==4.6.0"
-  ],
   "homeassistant": "2026.4.0",
   "version": "26.4.0"
 }
